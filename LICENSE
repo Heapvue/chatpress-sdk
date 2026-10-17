@@ -1,12 +1,28 @@
-Proprietary License
+Chatpress Commercial Client SDK License
 
 Copyright (c) 2026 Chatpress. All rights reserved.
 
-This software and associated documentation files (the "Software") are proprietary
-and confidential to Chatpress. Unauthorized copying, distribution, modification,
-public display, or reverse engineering of this software, via any medium, is
-strictly prohibited without the prior express written permission of Chatpress.
+Permission is hereby granted to any person obtaining a copy of this software and
+associated documentation files (the "Software") to use, integrate, and distribute
+the Software in compiled binary form solely as a client component of an application
+that communicates with Chatpress backend services ("Services"), subject to the
+following conditions:
 
-Access and use of this Software is granted solely to authorized licensees who
-have purchased a valid license or API key from Chatpress, subject to the terms
-and conditions of the Chatpress Commercial Service Agreement.
+1. Valid Account & API Key Required: Use of this Software requires an active,
+   authorized Chatpress account and valid API credentials obtained from Chatpress
+   (https://chatpress.io).
+
+2. Restrictions: You may not modify, adapt, translate, reverse engineer, decompile,
+   or disassemble the Software, or create derivative works based on the Software,
+   except to the extent permitted by applicable law. You may not distribute or sell
+   the Software on a standalone basis or use it to develop a competing service.
+
+3. Proprietary Rights: Chatpress retains all right, title, and interest in and to the
+   Software, including all intellectual property rights therein.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL CHATPRESS BE LIABLE
+FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT
+OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.

@@ -1,10 +1,12 @@
 # chatpress
 
-[![license: Proprietary](https://img.shields.io/badge/license-Proprietary-red.svg)](#)
-[![access: Private SDK](https://img.shields.io/badge/access-Commercial-purple.svg)](#)
+[![pub.dev](https://img.shields.io/pub/v/chatpress.svg)](https://pub.dev/packages/chatpress)
+[![license: Commercial](https://img.shields.io/badge/license-Commercial-blue.svg)](#license)
 [![platform: iOS & Android](https://img.shields.io/badge/platform-iOS%20%7C%20Android-blue.svg)](#)
 
-Official private Flutter SDK for integrating **Chatpress AI chatbots** into mobile apps.
+Official Flutter SDK for integrating **Chatpress AI chatbots** into mobile apps.
+
+> ℹ️ **Commercial Service SDK**: This package is published for easy integration by Chatpress customers. Access to the backend requires a valid API key and an active subscription from [chatpress.io](https://chatpress.io).
 
 - 🤖 Drop-in `ChatpressWidget` — zero boilerplate, full-featured chat UI
 - 🔌 Headless `ChatpressClient` — build your own UI with the same power
@@ -16,47 +18,17 @@ Official private Flutter SDK for integrating **Chatpress AI chatbots** into mobi
 
 ## Installation
 
-Because this is a private commercial SDK, clients can integrate it using any of the following methods after obtaining access:
-
-### Option 1: Via Private Git Repository (Recommended)
-
-Add the Git repository to your app's `pubspec.yaml` (using SSH or HTTPS access token):
+Add `chatpress` to your app's `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  chatpress:
-    git:
-      url: git@github.com:chatpress/chatpress-flutter-sdk.git
-      ref: v1.0.0 # or main / specific tag
+  chatpress: ^1.0.0
 ```
 
-### Option 2: Via Local Path / Vendored Package
-
-If you distribute the SDK folder directly to authorized clients:
-
-```yaml
-dependencies:
-  chatpress:
-    path: ./packages/chatpress-sdk
-```
-
-### Option 3: Via Private / Hosted Pub Server
-
-If you run a private package repository (e.g. Unpub, Cloudsmith, AWS CodeArtifact):
-
-```yaml
-dependencies:
-  chatpress:
-    hosted:
-      name: chatpress
-      url: https://pub.yourcompany.com
-    version: ^1.0.0
-```
-
-Then run:
+Or install via terminal:
 
 ```sh
-flutter pub get
+flutter pub add chatpress
 ```
 
 ---
