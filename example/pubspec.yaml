@@ -1,0 +1,17 @@
+name: chatpress_example
+description: Example app demonstrating the chatpress Flutter SDK.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  chatpress:
+    path: ../
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,30 @@
+name: chatpress
+description: >
+  Official Flutter SDK for integrating the Chatpress AI chatbot into mobile apps.
+  Ships a drop-in ChatpressWidget and a headless ChatpressClient for full control.
+version: 1.0.0
+publish_to: 'none'
+homepage: https://chatpress.io
+repository: https://github.com/chatpress/chatpress-flutter-sdk
+issue_tracker: https://github.com/chatpress/chatpress-flutter-sdk/issues
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  web_socket_channel: ^3.0.1
+  shared_preferences: ^2.3.2
+  uuid: ^4.4.0
+  flutter_markdown: ^0.7.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
