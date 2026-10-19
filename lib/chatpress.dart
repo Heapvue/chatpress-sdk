@@ -15,7 +15,7 @@
 ///   ),
 /// )
 /// ```
-library chatpress;
+library;
 
 // Config & Client
 export 'src/client/chatpress_config.dart';

@@ -2,6 +2,12 @@
 
 All notable changes to the `chatpress` package will be documented in this file.
 
+## 1.0.1
+
+- Updated license to MIT.
+- Updated repository, issue tracker, and homepage URLs in `pubspec.yaml`.
+- Upgraded dependencies (`flutter_lints`, `flutter_markdown`, `http`, etc.).
+
 ## 1.0.0
 
 Initial public release.

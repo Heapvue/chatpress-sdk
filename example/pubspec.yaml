@@ -8,10 +8,10 @@ environment:
   flutter: ">=3.10.0"
 
 dependencies:
-  flutter:
-    sdk: flutter
   chatpress:
     path: ../
+  flutter:
+    sdk: flutter
 
 flutter:
   uses-material-design: true

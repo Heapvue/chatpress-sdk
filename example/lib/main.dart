@@ -64,16 +64,16 @@ class _HomePage extends StatelessWidget {
                 ),
                 borderRadius: BorderRadius.circular(20),
                 boxShadow: [
-                  BoxShadow(
-                    color: const Color(0xFF6C63FF).withOpacity(0.35),
+                  const BoxShadow(
+                    color: Color(0x596C63FF),
                     blurRadius: 20,
-                    offset: const Offset(0, 8),
+                    offset: Offset(0, 8),
                   ),
                 ],
               ),
-              child: Column(
+              child: const Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: const [
+                children: [
                   Icon(Icons.smart_toy_rounded, color: Colors.white, size: 36),
                   SizedBox(height: 12),
                   Text(
@@ -130,7 +130,7 @@ class _HomePage extends StatelessWidget {
         ),
       ),
       // Option 4: FAB
-      floatingActionButton: ChatpressFab(config: _config),
+      floatingActionButton: const ChatpressFab(config: _config),
     );
   }
 }

@@ -1,12 +1,12 @@
 # chatpress
 
 [![pub.dev](https://img.shields.io/pub/v/chatpress.svg)](https://pub.dev/packages/chatpress)
-[![license: Commercial](https://img.shields.io/badge/license-Commercial-blue.svg)](#license)
+[![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![platform: iOS & Android](https://img.shields.io/badge/platform-iOS%20%7C%20Android-blue.svg)](#)
 
 Official Flutter SDK for integrating **Chatpress AI chatbots** into mobile apps.
 
-> ℹ️ **Commercial Service SDK**: This package is published for easy integration by Chatpress customers. Access to the backend requires a valid API key and an active subscription from [chatpress.io](https://chatpress.io).
+> ℹ️ **Service SDK**: This client SDK is open source under the MIT license. Access to the Chatpress backend services requires a valid API key and active account from [chatpress.heapvue.com](https://chatpress.heapvue.com).
 
 - 🤖 Drop-in `ChatpressWidget` — zero boilerplate, full-featured chat UI
 - 🔌 Headless `ChatpressClient` — build your own UI with the same power
@@ -218,4 +218,4 @@ await client.connect(); // will start a new session
 
 ## License
 
-Commercial / Proprietary © Chatpress. All rights reserved. Access and use require a valid API key and commercial agreement.
+This SDK is released under the [MIT License](LICENSE). Note that accessing Chatpress backend services requires an active account and API key.
