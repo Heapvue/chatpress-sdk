@@ -2,6 +2,14 @@
 
 All notable changes to the `chatpress` package will be documented in this file.
 
+## 1.0.3
+
+- Updated `CHANGELOG.md` with complete release notes.
+
+## 1.0.2
+
+- Switched markdown rendering package to `flutter_markdown_plus` for improved compatibility.
+
 ## 1.0.1
 
 - Updated license to MIT.
